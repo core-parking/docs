@@ -12,7 +12,7 @@ Cada microservicio mantiene su propio historial, ramas y versiones. Este reposit
 
 ## Casos de uso
 
-Usar [la plantilla](casos-de-uso/PLANTILLA.md) y crear un archivo `CU-XXX-nombre.md` por caso. Incluir una descripción de una línea, Definition of Ready (preparación), criterios de aceptación y Definition of Done (finalización). Los borradores se revisarán con el tutor.
+El borrador inicial está reunido en [Parking Service — Alcance y casos de uso](casos-de-uso/PARKING-SERVICE.md): incluye decisiones propuestas, esquemas, 16 casos de uso, DoR, criterios de aceptación y DoD, alineados con la arquitectura hexagonal modular. Está pendiente de revisión por Julio y el tutor. La [plantilla](casos-de-uso/PLANTILLA.md) sigue disponible para futuras fichas individuales.
 
 Propuesta inicial pendiente de validar:
 
@@ -30,6 +30,6 @@ Se incorporarán `arquitectura/` para decisiones y diagramas, y `seguimiento/` p
 
 ## Forma de trabajo
 
-Los microservicios se desarrollan mediante ramas de trabajo y PR hacia `develop`; las entregas verificadas se integran en `main` y se etiquetan. Cada servicio mantiene su versión independiente. Las entregas globales documentarán las versiones concretas de los servicios.
+Tanto Docs como los microservicios se desarrollan mediante ramas `feature/...` desde `develop` y PR hacia `develop`. Las pruebas y revisiones se realizan en las ramas de trabajo y sus PR, y la validación conjunta se realiza en `develop`. Las entregas verificadas se integran en `main` y se etiquetan; `main` se reserva para releases. Cada servicio mantiene su versión independiente. Las entregas globales documentarán las versiones concretas de los servicios.
 
 La estructura inicial de este repositorio se ha creado en `main`. Las siguientes modificaciones de documentación se propondrán mediante ramas y PR.
